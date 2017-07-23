@@ -11,29 +11,16 @@ brew tap caskroom/versions
 
 apps=(
   alfred
-  atom
-  dash2
   dropbox
   firefox
-  firefox-nightly
-  flux
-  glimmerblocker
   google-chrome
   google-chrome-canary
   google-drive
-  hammerspoon
   kaleidoscope
-  macdown
-  opera
-  screenflow
   slack
-  sourcetree
-  spotify
   sublime-text
   transmit
-  virtualbox
-  vlc
-  webstorm
+  tower
 )
 
 brew cask install "${apps[@]}"
@@ -42,4 +29,4 @@ brew cask install "${apps[@]}"
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
 
 # Link Hammerspoon config
-[ -d ~/.hammerspoon ] || ln -sfv "$DOTFILES_DIR/etc/hammerspoon/" ~/.hammerspoon
+# [ -d ~/.hammerspoon ] || ln -sfv "$DOTFILES_DIR/etc/hammerspoon/" ~/.hammerspoon

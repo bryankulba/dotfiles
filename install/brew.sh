@@ -37,7 +37,6 @@ apps=(
   imagemagick
   jq
   lynx
-  mackup
   pandoc
   peco
   psgrep
